@@ -1,0 +1,22 @@
+#banner {background-color:  #0e3c84; height: 160px}
+#banner > div {position: relative; width: 1200px; margin:0 auto; text-align: center;}
+#banner .prev, .next, .control, .close{position: absolute;}
+#banner .prev{left:0; top:42px;}
+#banner .next{right:0; top:42px;}
+#banner .control{left:0; bottom: 11px; font-size: 0;}
+#banner .control a {margin: 0 15px 0 0;}
+#banner .close {right: 0; bottom: 4px;}
+#banner .close label{padding: 0 22px 0 0 ; font-size: 11px; color: #fff;}
+
+#header{height: 99px; border-bottom: 1px solid #c5c5c5;}
+#header > div{width: 1220px; margin:0 auto;}
+#header > div > * {float:left}
+#header #lnb li {float: left; padding: 0 16px;}
+#header #lnb li a{display: block; height: 99px; line-height: 99px; font-size: 16px; font-weight: bold; color: #333; }
+#header #lnb li a:hover{height:95px; border-bottom: 4px solid #1764dc; color: #3c91f3; background: url("../images/bg_lnb.gif") no-repeat center 87px}
+#header h1{padding: 0 20px 0 0 ;}
+#header p{height: 99px; line-height: 99px; font-weight: bold; font-size: 22px; color: #0e3c84; }
+#header p span{color: #1764dc;}
+#header div > div { padding: 30px 0 0 0; font-size: 0px}
+#header .btn_pop { display: inline-block; height: 40px; width: 75px; background: #2cc06b; color: #fff; line-height: 40px; }
+#header div > div a{font-size: 11px;}
